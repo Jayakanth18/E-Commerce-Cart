@@ -1,0 +1,31 @@
+.container{
+  display: inline-grid;
+  box-shadow: 2px 2px 10px rgb(203, 199, 199);
+  height: 500px;
+  width: 450px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.product{
+  margin: 20px;
+}
+
+.product img{
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+.cartbtn{
+  background-color: transparent;
+  border: 2px solid rgb(70, 70, 70);
+  min-width: 100px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.cartbtn:hover{
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
