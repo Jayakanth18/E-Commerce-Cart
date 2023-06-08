@@ -4,7 +4,7 @@ import { ShopContext } from "../../context/Shop-context";
 
 const Product = (props) => {
   //context
-  const { addToCart, cartItem } = useContext(ShopContext);
+  const { addToCart, cartItem, removeFromCart } = useContext(ShopContext);
 
   //to convert usd to inr
   const dollar_equalent_inr = 82.53;
